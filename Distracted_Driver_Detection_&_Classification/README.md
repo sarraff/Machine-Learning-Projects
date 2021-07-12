@@ -6,8 +6,8 @@
 Most people tend to follow safety guidelines while driving, yet there is a continuous increase in car accidents every year leading to loss of lives. One major factor that contributes towards the accidents is the driver distractions while driving. Current distracted driving statistics show that 80% of all car accidents are caused by the driver being  distracted in some way. Thus, to reduce the number of car accidents, being able to identify distracted driving is a major task.
 
 ### Problem Description
-The goal of this project is to detect if the car driver is driving safe or performing any activity that might result in a accident or any harm to others. The dataset contains various driver images, each taken in a car with a driver performing some activity in the car. We are determined to classify the likelihood of what the driver is doing in each image. We aim to use various Machine Learning techniques to classify driver’s activities and identify a model that yields the highest accuracy. The model is trained on image data that are the images of driver's actions in the car. This is a multi-class classification problem, with a total of 10 classes including a class of ‘safe driving’. The image below gives the 10 classes:
-# ![Classes](Classes.png)
+The goal of this project is to create an online platform which can detect if the car driver is driving safe or performing any activity that might result in a accident or any harm to others. We aim to use various Machine Learning techniques to classify driver’s activities and identify a model that yields the highest accuracy. The model is trained on image data that are the images of driver's actions in the car. This is a multi-class classification problem, with a total of 10 classes including a class of ‘safe driving’. The image below gives the 10 classes:
+# ![Classes](Images/Classes.png)
 
 Below are the 10 classes to classify:
 
@@ -44,14 +44,14 @@ We pre-processed these  images by resizing them to 64X64 RGB and extract each im
 
 2.  Stacked HOG gradient features to generate a feature matrix
 
-# ![Classes](HOG.png)
+# ![Classes](Images/HOG.png)
 
 #### Sobel Edge Descriptor
 1.  Obtained edges using Sobel gradient in X and Y direction
 
 2.  Stacked object edges as feature vector
 
-# ![Image](Sobel.png)
+# ![Image](https://github.com/sarraff/Machine-Learning-Projects/blob/main/Distracted_Driver_Detection_%26_Classification/Images/Sobel%E2%80%8B.png)
 
 ### ML Algorithms
 
