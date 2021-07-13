@@ -4,14 +4,16 @@
 
 ## Introduction
 The goal of the app is to label whether the car driver is driving safe or performing any activity that might result in a accident or any harm to others. Since the project is based on multi-class classification problem, with a total of 10 classes including a class of ‘safe driving’, the app will also label the car driver class among the given 10 classes. 
+
 The image below shows results of one of the driver image.
-# ![Classes](Distracted_Driver_Detection_&_Classification/Model_Codes/Images/anvil_output.gif)
+# ![Classes](Model_Codes/Images/anvil_output.gif)
 
 
-### How it is done 
+## How it is done 
 The app is built using the platform [`Anvil`](https://anvil.works/build) which is a free Python-based drag-and-drop web app builder. It provide a full-stack web application where the client and server codes are in python. In the app, The client code will ask the user for the image as input and will send the image data as a string to the server. Now, the server will resize the image, convert it into input format, pass it through the computed model, and will predict the result. After prediction, the server will send the string to the client code and the client code will output the status and class of the input image. 
+#
 
-### Prerequisites before running the app
+## Prerequisites before running the app
 1. Compile model beforehand and save model weights in a file.
 2. Load all the weights in a new defined structured parameter ( structure same as model which is being defined to classify the results)
 ```
