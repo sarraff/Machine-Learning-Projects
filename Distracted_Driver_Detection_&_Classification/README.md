@@ -9,7 +9,7 @@ The image below gives the 10 classes:
 
 ### How it is done 
 The app is built using the platform [`Anvil`] which is a free Python-based drag-and-drop web app builder. It provide a full-stack web application where the client and server codes are in python. In the app, The client code will ask the user for the image as input and will send the image data as a string to the server. Now, the server will resize the image, convert it into input format, pass it through the computed model, and will predict the result. After prediction, the server will send the string to the client code and the client code will output the status and class of the input image. 
-[`Anvil`] : https://anvil.works/build
+[`Anvil`]: https://anvil.works/build
 
 ### Prerequisites before running the app
 1. Compile model beforehand and save model weights in a file.
