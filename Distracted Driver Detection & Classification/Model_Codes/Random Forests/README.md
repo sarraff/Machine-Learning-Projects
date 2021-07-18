@@ -1,10 +1,7 @@
-# Decision Tree
-    Train Data: Gray images, RGB images, PCA features, Sobel Edges
-    Tried Pruning
-    
-# Random Forests
-    Scikit-Learn Library
+# Random Forest
 
-    Different number of trees
+Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time. For classification tasks, the output of the random forest is the class selected by most trees. 
 
-    Train data: Gray images, RGB images & K-means clustered images
+<hr>
+
+#![Image](../Images/Random%3DForest.png)
