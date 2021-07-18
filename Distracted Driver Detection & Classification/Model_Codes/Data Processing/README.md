@@ -6,8 +6,8 @@ Sobel Data processing uses sobel operator. The Sobel operator, sometimes called 
 ![Sobel Image](../Images/Sobel%E2%80%8B.png)
   
 `Sobel_Data_Processing.py` will convert Image -> Sobel Image -> Edge-emphasized flattened vectors
+<hr>
 
-  
 ### 2. RGB Data Processing
 RGB Data Processing will convert each pixel into a 1*3 matrix repersenting RGB value of a pixel.
 
