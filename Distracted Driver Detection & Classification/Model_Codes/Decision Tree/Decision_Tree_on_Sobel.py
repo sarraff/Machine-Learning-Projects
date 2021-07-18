@@ -22,5 +22,4 @@ print(Yo)
 classifier = DecisionTreeClassifier()
 classifier.fit(Xo,Yo)
 #y_pred = classifier.predict(X_test)
-
 #print("Split Accuracy:",metrics.accuracy_score(y_test,y_pred))
