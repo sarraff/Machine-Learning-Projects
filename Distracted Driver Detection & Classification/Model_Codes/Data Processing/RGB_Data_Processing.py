@@ -81,8 +81,6 @@ imgs9 = glob.glob(r"/content/train/c9/*.jpg")
 combined_train9 = matrix(row,col,Y,imgs9)
 final_matrix = np.concatenate((X8,combined_train9))
 
-
-
 np.savetxt('Sobel_train.csv',final_matrix, delimiter=',',fmt='%s')
 
 print('size of feature martix is:',np.shape(final_matrix))
