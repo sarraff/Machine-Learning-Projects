@@ -4,4 +4,4 @@ Random forests or random decision forests are an ensemble learning method for cl
 
 <hr>
 
-#![Image](../Images/Random%3DForest.png)
+![Image](../Images/Random%3DForest.png)
