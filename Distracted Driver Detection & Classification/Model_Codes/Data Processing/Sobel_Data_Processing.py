@@ -89,16 +89,3 @@ final_matrix = np.concatenate((X8,combined_train9))
 np.savetxt('Sobel_train.csv',final_matrix, delimiter=',',fmt='%s')
 
 print('size of feature martix is:',np.shape(final_matrix))
-
-
-#print(combined_train[:,13440])
-
-##################  Checking each features with images: #######################
-#check1 = finalX_train[0]
-#check = check1.reshape(col,row,3)
-
-#oimg = cv2.imread(r"C:\Users\vrush\Jupyter Noteboks\ML\img_104.jpg")
-#img1 = cv2.resize(oimg,(row,col))
-#print(img1)
-#print(np.array_equal(check, img1))
-###############################################################################
